@@ -8,10 +8,24 @@ div#quemSouEu{
 	padding-bottom: 50px;
 }
 
-div#quemSouEu h1, div#quemSouEu h2{
+h1, h2, h3{
 	text-align: center;
 }
 
 div#quemSouEu h2{
+	margin-top: 50px;
+}
+
+/*30days30sites*/
+
+div#daysSites{
+	background-color: rgba(0,255,0,0.4);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+div#daysSites h3{
+	width: 80%;
+	margin:auto;
 	margin-top: 50px;
 }
