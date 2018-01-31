@@ -3,12 +3,12 @@
 /*quem sou eu*/
 
 div#quemSouEu{
-	background-color: rgba(255,0,0,0.3);
+	background-color: rgba(0,0,255,0.2);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h6{
 	text-align: center;
 }
 
@@ -19,7 +19,7 @@ div#quemSouEu h2{
 /*30days30sites*/
 
 div#daysSites{
-	background-color: rgba(0,255,0,0.3);
+	background-color: rgba(204, 102, 255,0.4);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -33,7 +33,7 @@ div#daysSites h3{
 /*contato*/
 
 div#contato{
-	background-color: rgba(0,0,255,0.3);
+	background-color: rgba(0,0,0,0.1);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -42,4 +42,17 @@ div#contato h3{
 	width: 80%;
 	margin:auto;
 	margin-top: 50px;
+}
+
+/*footer*/
+
+footer{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+
+}
+
+footer h6{
+	font-weight: 300;
 }
