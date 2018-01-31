@@ -8,6 +8,10 @@ div#quemSouEu{
 	padding-bottom: 50px;
 }
 
-div#quemSouEu h1{
+div#quemSouEu h1, div#quemSouEu h2{
 	text-align: center;
+}
+
+div#quemSouEu h2{
+	margin-top: 50px;
 }
