@@ -107,3 +107,14 @@ span.obrigatorio{
 button.botao-contato{
 	margin-top: 10px;
 }
+
+/*footer*/
+
+footer{
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+footer a{
+	color: green;
+}
