@@ -39,7 +39,19 @@ div#convite h6 button{
 
 /*noticias*/
 
-div#noticias{
+div#sobre{
 	padding: 50px 0 50px 0;
-	background-color: pink;
+	border-top: 1px solid green;
+}
+
+div#sobre h2{
+	text-align: center;
+	font-family: Vidaloka;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+div#sobre p{
+	text-align: center;
+	width: 80%;
+	margin: auto;
 }
