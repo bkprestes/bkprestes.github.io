@@ -53,10 +53,10 @@
 			<h2>Cronograma</h2>
 
 			<ul>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
+				<li><span>10/11/2018:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
+				<li><span>11/11/2018:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
+				<li><span>12/11/2018:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
+				<li><span>13/11/2018:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis est eu luctus facilisis.</li>
 			</ul>
 		</div>
 	</div>
@@ -65,7 +65,22 @@
 		<div id="contato">
 			<h2>Contato</h2>
 
-			<p>Para entrar em contato conosco, mande uma mensagem para o e-mail contato@forumsustentavel.com</p>
+			<p>Para entrar em contato conosco, preencha os campos abaixo ou mande uma mensagem para contato@forumsustentavel.com</p>
+			<form>
+				<div class="form-group">
+					<label>Nome<span class="obrigatorio">*</span>:</label>
+					<input type="text" name="nome" class="form-control form-control-sm">
+					<label>E-mail<span class="obrigatorio">*</span>:</label>
+					<input type="email" name="email" class="form-control form-control-sm" placeholder="email@email.com">
+					<label>Título:</label>
+					<input type="text" name="titulo" class="form-control form-control-sm">
+					<label>Mensagem<span class="obrigatorio">*</span>:</label>
+					<textarea class="form-control" rows="3" placeholder="Escreva sua mensagem..."></textarea>
+					<button type="submit" class="btn btn-success botao-contato">Enviar</button>
+				</div>
+
+				
+			</form>
 		</div>
 	</div>
 

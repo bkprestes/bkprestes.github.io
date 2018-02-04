@@ -70,6 +70,10 @@ div#cronograma ul{
 	margin: auto;
 }
 
+div#cronograma ul li span{
+	font-weight: 900;
+}
+
 /*contato*/
 
 div#contato{
@@ -84,4 +88,20 @@ div#contato p{
 	width: 80%;
 	margin: auto;
 	text-align: center;
+	margin-bottom: 30px;
+}
+
+.form-group{
+	width: 80%;
+	margin: auto;
+	max-width: 300px;
+}
+
+span.obrigatorio{
+	color: red;
+
+}
+
+button.botao-contato{
+	margin-top: 10px;
 }
