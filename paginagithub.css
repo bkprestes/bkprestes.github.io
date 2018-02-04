@@ -45,15 +45,15 @@ div#contato h3{
 
 /*footer*/
 
-html, body, div#portfolio{
-	height: 100%;
+
+div#portfolio{
+	min-height: 1000px;
 }
 
 footer{
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: white;
-	position: relative;
 
 }
 
@@ -70,4 +70,5 @@ div#portfolio{
 
 div#portfolio div div img{
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
