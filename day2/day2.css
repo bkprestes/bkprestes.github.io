@@ -108,6 +108,10 @@ button.botao-contato{
 	margin-top: 10px;
 }
 
+input.form-control, textarea.form-control{
+	font-size: 14px;
+}
+
 /*footer*/
 
 footer{
