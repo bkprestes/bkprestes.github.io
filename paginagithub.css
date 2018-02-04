@@ -50,9 +50,23 @@ footer{
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: white;
+	position:absolute;
+    bottom:0;
+    width:100%;
 
 }
 
 footer h6{
 	font-weight: 300;
+}
+
+/*pagina portfolio*/
+
+div#portfolio{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+div#portfolio div div img{
+	margin-top: 50px;
 }
