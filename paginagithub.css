@@ -1,5 +1,4 @@
 
-
 /*quem sou eu*/
 
 div#quemSouEu{
@@ -46,13 +45,15 @@ div#contato h3{
 
 /*footer*/
 
+html, body, div#portfolio{
+	height: 100%;
+}
+
 footer{
 	padding-top: 25px;
 	padding-bottom: 25px;
 	color: white;
-	position:absolute;
-    bottom:0;
-    width:100%;
+	position: relative;
 
 }
 
