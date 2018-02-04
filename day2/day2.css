@@ -11,6 +11,7 @@ div#convite{
 
 img.fundo-folhas{
 	float: right;
+	margin-top: 30px;
 	margin-bottom: -150px;
 }
 
@@ -18,7 +19,7 @@ div#convite h1{
 	width: 50%;
 	text-align: center;
 	margin: auto;
-	padding-top: 50px;
+	padding-top: 150px;
 	font-family: Vidaloka, sans-serif;
 	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 	font-size: 2em;
@@ -55,6 +56,7 @@ h2{
 div#sobre p{
 	width: 80%;
 	margin: auto;
+	text-align: center;
 }
 
 /*cronograma*/
