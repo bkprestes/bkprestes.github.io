@@ -2,27 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Vidaloka');
 
 div#convite{
-	/*background-image: url("imagens/folhas.png");*/
-	/*background-repeat: no-repeat;
-	background-position: right;*/
+	
 	height: auto;
-	/*background-size: cover;*/
+	margin: auto;
 }
 
 img.fundo-folhas{
-	float: right;
 	margin-top: 30px;
 	margin-bottom: -150px;
 }
 
 div#convite h1{
-	width: 50%;
-	text-align: center;
-	margin: auto;
 	padding-top: 150px;
 	font-family: Vidaloka, sans-serif;
 	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-	font-size: 2em;
+	margin: auto;
+	max-width: 400px;
+
 
 }
 
@@ -57,6 +53,7 @@ div#sobre p{
 	width: 80%;
 	margin: auto;
 	text-align: center;
+	max-width: 900px;
 }
 
 /*cronograma*/
@@ -70,6 +67,7 @@ div#cronograma{
 div#cronograma ul{
 	width: 80%;
 	margin: auto;
+	max-width: 900px;
 }
 
 div#cronograma ul li span{
@@ -91,6 +89,7 @@ div#contato p{
 	margin: auto;
 	text-align: center;
 	margin-bottom: 30px;
+	max-width: 900px;
 }
 
 .form-group{
