@@ -37,3 +37,24 @@ div#sobre h2{
 small{
 	width: 80%;
 }
+
+/*agenda de shows*/
+
+ul.list-group{
+	max-width: 300px;
+	margin: auto;
+}
+
+div#agenda-shows{
+	padding: 100px 0 100px 0;
+}
+
+div#agenda-shows h2{
+	text-align: center;
+}
+
+div#agenda-shows h3{
+	max-width: 300px;
+	margin: auto;
+	margin-top: 50px;
+}
