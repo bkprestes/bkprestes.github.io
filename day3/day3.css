@@ -58,3 +58,24 @@ div#agenda-shows h3{
 	margin: auto;
 	margin-top: 50px;
 }
+
+/*footer*/
+
+footer{
+	padding: 25px 0 25px 0;
+	background-color: blue;
+}
+
+footer h6{
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+
+footer h6 a{
+	color: yellow;
+}
+
+footer h6 a:hover{
+	color: red;
+}
