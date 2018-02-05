@@ -1,0 +1,15 @@
+
+
+div.fundo{
+	background-color: red;
+}
+
+
+h1.titulo{
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 80%;
+	max-width: 700px;
+
+}
