@@ -26,8 +26,8 @@ img.img-cartoes{
 /*galeria*/
 
 div#galeria{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 img.img-pixi{
@@ -37,6 +37,19 @@ img.img-pixi{
 /*descricao*/
 
 div#descricao{
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*tabela de especificação*/
+
+div#especificacao{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.table-hover tbody tr:hover {
+    
+      background-color: rgba(255,0,0,0.1);
+
 }
