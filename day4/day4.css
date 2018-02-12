@@ -10,3 +10,14 @@ div#oproduto h1{
 div#oproduto h6{
 	margin: 25px 0 25px 0;
 }
+
+/*galeria*/
+
+div#galeria{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+img.img-pixi{
+	margin-top: 50px;
+}
