@@ -3,6 +3,8 @@ div.container-fluid{
 	margin-top: 100px;
 }
 
+/*produto*/
+
 div#oproduto h1{
 	margin-top: 50px;
 }
@@ -10,6 +12,12 @@ div#oproduto h1{
 div#oproduto h6{
 	margin: 25px 0 25px 0;
 }
+
+img.img-cartoes{
+	max-width: 50px;
+	margin-left: 2px;
+}
+
 
 /*galeria*/
 
@@ -20,4 +28,11 @@ div#galeria{
 
 img.img-pixi{
 	margin-top: 50px;
+}
+
+/*descricao*/
+
+div#descricao{
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
