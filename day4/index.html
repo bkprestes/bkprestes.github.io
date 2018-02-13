@@ -15,17 +15,17 @@
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-white" id="minhaNavBar">
-	  <a class="navbar-brand text-white" href="#">Alcatel Pixi 4 Colors</a>
+	  <a id="0" class="navbar-brand text-white" href="#">Alcatel Pixi 4 Colors</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon text-white"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
-	      <a class="nav-item nav-link active text-white" href="#">Home <span class="sr-only">(current)</span></a>
-	      <a class="nav-item nav-link text-white" href="#">O Produto</a>
-	      <a class="nav-item nav-link text-white" href="#">Galeria</a>
-	      <a class="nav-item nav-link text-white" href="#">Descrição</a>
-	      <a class="nav-item nav-link text-white" href="#">Especificação</a>
+	      <a id="1" class="nav-item nav-link active text-white" href="#">Home <span class="sr-only">(current)</span></a>
+	      <a id="2" class="nav-item nav-link text-white" href="#">O Produto</a>
+	      <a id="3" class="nav-item nav-link text-white" href="#">Galeria</a>
+	      <a id="4" class="nav-item nav-link text-white" href="#">Descrição</a>
+	      <a id="5" class="nav-item nav-link text-white" href="#">Especificação</a>
 	    </div>
 	  </div>
 	</nav>
@@ -61,7 +61,7 @@
 					<img src="imagens/pixi-preto.jpg" onmouseover="trocarPreto()" onmouseout="voltarPreto()" class="img-fluid img-pixi" id="preto">
 				</div>
 				<div class="col-sm-3">
-					<img src="imagens/pixi-branco.jpg" onmouseover="trocarBranco()" onmouseout="voltarBranco()" class="img-fluid img-pixi" id="branco">
+					<img src="imagens/pixi-branco.jpg" onmouseover="trocarBranco(), corPreta(0), corPreta(1), corPreta(2), corPreta(3), corPreta(4), corPreta(5)" onmouseout="voltarBranco(), corBranca(0), corBranca(1), corBranca(2), corBranca(3), corBranca(4), corBranca(5)" class="img-fluid img-pixi" id="branco">
 				</div>
 				<div class="col-sm-3">
 					<img src="imagens/pixi-vermelho.jpg" onmouseover="trocarVermelho()" onmouseout="voltarVermelho()" class="img-fluid img-pixi" id="vermelho">
@@ -381,12 +381,26 @@
 
     		branco2.src = 'imagens/pixi-branco2.jpg';
 
+
     		setTimeout(function() {
 			    var nav = document.querySelector('nav');
 			    trocaClasse(nav, 'bg-dark', 'bg-light');
 			}, 50);
+
+
   
     	}
+
+    	function corPreta(n){
+				var a = document.getElementById(n);
+				trocaClasse(a, 'text-white', 'text-dark');
+		}
+
+		function corBranca(n){
+				var a = document.getElementById(n);
+				trocaClasse(a, 'text-dark', 'text-white');
+		}
+
 
     	function voltarTodos(){
     		var todos = document.getElementById('todos');
