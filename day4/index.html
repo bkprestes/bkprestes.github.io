@@ -10,9 +10,11 @@
     <link rel="stylesheet" type="text/css" href="day4.css">
 
     <title>Site de Produto</title>
+
+    
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-white" id="minhaNavBar">
 	  <a class="navbar-brand text-white" href="#">Alcatel Pixi 4 Colors</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon text-white"></span>
@@ -32,7 +34,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="imagens/pixi-todos.jpg" class="img-fluid" alt="Smartphone Pixi 4 Colors com 4 capas coloridas para a parte de trás (bateria): vermelho, azul, branco e preto.">
+					<img src="imagens/pixi-todos.jpg" class="img-fluid" id="todos" onmouseover="trocarTodos()" onmouseout="voltarTodos()" alt="Smartphone Pixi 4 Colors com 4 capas coloridas para a parte de trás (bateria): vermelho, azul, branco e preto.">
 				</div>
 				<div class="col-sm-6" id="oproduto">
 					<h1>Alcatel Pixi 4 Colors</h1>
@@ -56,16 +58,16 @@
 		<div class="container" id="galeria">
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="imagens/pixi-preto.jpg" class="img-fluid img-pixi">
+					<img src="imagens/pixi-preto.jpg" onmouseover="trocarPreto()" onmouseout="voltarPreto()" class="img-fluid img-pixi" id="preto">
 				</div>
 				<div class="col-sm-3">
-					<img src="imagens/pixi-branco.jpg" class="img-fluid img-pixi">
+					<img src="imagens/pixi-branco.jpg" onmouseover="trocarBranco()" onmouseout="voltarBranco()" class="img-fluid img-pixi" id="branco">
 				</div>
 				<div class="col-sm-3">
-					<img src="imagens/pixi-vermelho.jpg" class="img-fluid img-pixi">
+					<img src="imagens/pixi-vermelho.jpg" onmouseover="trocarVermelho()" onmouseout="voltarVermelho()" class="img-fluid img-pixi" id="vermelho">
 				</div>
 				<div class="col-sm-3">
-					<img src="imagens/pixi-azul.jpg" class="img-fluid img-pixi">
+					<img src="imagens/pixi-azul.jpg" onmouseover="trocarAzul()" onmouseout="voltarAzul()" class="img-fluid img-pixi" id="azul">
 				</div>
 			</div>
 			
@@ -301,5 +303,103 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	
+
+    	function trocaClasse(elemento, antiga, nova) {
+		    elemento.classList.remove(antiga);
+		    elemento.classList.add(nova);
+		}
+
+    	function voltarVermelho(){
+    		var vermelho = document.getElementById('vermelho');
+
+    		vermelho.src = 'imagens/pixi-vermelho.jpg';
+    		setTimeout(function() {
+			    var nav = document.querySelector('nav');
+			    trocaClasse(nav, 'bg-danger', 'bg-dark');
+			}, 50);
+    	}
+
+    	function trocarVermelho(){
+    		var vermelho2 = document.getElementById('vermelho');
+
+    		vermelho2.src = 'imagens/pixi-vermelho2.jpg';
+    		setTimeout(function() {
+			    var nav = document.querySelector('nav');
+			    trocaClasse(nav, 'bg-dark', 'bg-danger');
+			}, 50);
+
+    	}
+
+    	function voltarAzul(){
+    		var azul = document.getElementById('azul');
+
+    		azul.src = 'imagens/pixi-azul.jpg';
+    		setTimeout(function() {
+			    var nav = document.querySelector('nav');
+			    trocaClasse(nav, 'bg-primary', 'bg-dark');
+			}, 50);
+    	}
+
+    	function trocarAzul(){
+    		var azul2 = document.getElementById('azul');
+
+    		azul2.src = 'imagens/pixi-azul2.jpg';
+
+    		setTimeout(function() {
+			    var nav = document.querySelector('nav');
+			    trocaClasse(nav, 'bg-dark', 'bg-primary');
+			}, 50);
+    	}
+
+    	function voltarPreto(){
+    		var preto = document.getElementById('preto');
+
+    		preto.src = 'imagens/pixi-preto.jpg';
+
+    	}
+
+    	function trocarPreto(){
+    		var preto2 = document.getElementById('preto');
+
+    		preto2.src = 'imagens/pixi-preto2.jpg';
+    	}
+
+    	function voltarBranco(){
+    		var branco = document.getElementById('branco');
+
+    		branco.src = 'imagens/pixi-branco.jpg';
+    		setTimeout(function() {
+			    var nav = document.querySelector('nav');
+			    trocaClasse(nav, 'bg-light', 'bg-dark');
+			}, 50);
+    	}
+
+    	function trocarBranco(){
+    		var branco2 = document.getElementById('branco');
+
+    		branco2.src = 'imagens/pixi-branco2.jpg';
+
+    		setTimeout(function() {
+			    var nav = document.querySelector('nav');
+			    trocaClasse(nav, 'bg-dark', 'bg-light');
+			}, 50);
+  
+    	}
+
+    	function voltarTodos(){
+    		var todos = document.getElementById('todos');
+
+    		todos.src = 'imagens/pixi-todos.jpg';
+    	}
+
+    	function trocarTodos(){
+    		var todos2 = document.getElementById('todos');
+
+    		todos2.src = 'imagens/pixi-lado.jpg';
+    	}
+
+    </script>
   </body>
 </html>

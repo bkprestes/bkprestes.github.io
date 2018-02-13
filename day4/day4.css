@@ -41,6 +41,11 @@ div#descricao{
 	padding-bottom: 50px;
 }
 
+div#descricao h5{
+	margin-top: 25px;
+	text-decoration: underline;
+}
+
 /*tabela de especificação*/
 
 div#especificacao{
@@ -65,3 +70,4 @@ footer{
 footer small a{
 	color: pink;
 }
+
