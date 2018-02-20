@@ -27,6 +27,10 @@ div.imagens-menu div h3{
 	margin-top: 25px;
 }
 
+.nav-link.active{
+	color: black;
+}
+
 /*restaurante*/
 
 iframe{
@@ -39,5 +43,13 @@ h4{
 }
 
 p#endereco{
+	text-align: center;
+}
+
+/*footer*/
+
+div#footer{
+	padding-top: 25px;
+	padding-bottom: 25px;
 	text-align: center;
 }
