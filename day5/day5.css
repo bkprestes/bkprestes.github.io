@@ -41,6 +41,12 @@ div.imagens-menu div h3{
 	margin-top: 25px;
 }
 
+/*modal*/
+
+.modal-body img{
+	width: 500px;
+}
+
 
 /*restaurante*/
 
