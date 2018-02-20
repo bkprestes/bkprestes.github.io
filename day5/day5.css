@@ -4,11 +4,16 @@
 }
 
 
-/*menu restaurante*/
+/*sobre*/
 
-h2{
-	margin-top: 30px;
+div#sobre, div#cardapio, div#restaurantes{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
+
+
+
+/*menu restaurante*/
 
 
 div.imagens-menu div img{
@@ -30,4 +35,9 @@ iframe{
 
 h4{
 	margin-top: 50px;
+	text-align: center;
+}
+
+p#endereco{
+	text-align: center;
 }
