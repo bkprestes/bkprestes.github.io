@@ -1,4 +1,18 @@
 
+/*header*/
+
+header#img-header{
+	background-image: url('imagens/foto-header.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+header#img-header h1{
+	padding-top: 180px;
+	text-align: center;
+}
+
 .img-fluid{
 	width: 100%;
 }
