@@ -24,12 +24,12 @@ nav ul li{
 
 /*sobre*/
 
-div#sobre{
+div#jkrowling{
 	height: 300px;
 	text-align: center;
 }
 
-div#sobre h1{
+div#jkrowling h1{
 	padding-top: 100px;
 	font-family: Lora;
 }
@@ -37,11 +37,11 @@ div#sobre h1{
 
 /*livros*/
 
-div#livros{
+div#hpstore{
 	height: 300px;
 }
 
-div#livros a{
+div#hpstore a{
 	display: block;
 	height: 300px;
 	background-image: url(imagens/hogwarts.jpg);
