@@ -59,7 +59,7 @@
                     
                     if(httpRequest.status == 200){
 
-                        document.getElementById('div_conteudo').innerHTML = httpRequest.responseText;
+                        document.getElementById('conteudo').innerHTML = httpRequest.responseText;
 
                     }
 
@@ -72,9 +72,9 @@
 </head>
     <nav>
     	<ul>
-    		<li><a href="#">Home</a></li>
-    		<li><a href="#">Sobre</a></li>
-    		<li><a href="#">Livros</a></li>
+    		<li><a href="#" onclick="fazerRequisicao('home.html', 'conteudo')">Home</a></li>
+    		<li><a href="#" onclick="fazerRequisicao('sobre.html', 'conteudo')">Sobre</a></li>
+    		<li><a href="#" onclick="fazerRequisicao('livros.html', 'conteudo')">Livros</a></li>
     	</ul>
     </nav>
 
