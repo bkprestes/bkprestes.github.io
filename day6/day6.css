@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+div#conteudo{
+	min-height: 1000px;
+}
+
 /*nav*/
 nav{
 	text-align: center;
@@ -61,4 +65,13 @@ ul#lista-livros{
 	list-style: none;
 	
 
+}
+
+/*footer*/
+
+footer{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	color: white;
 }
