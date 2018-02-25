@@ -22,7 +22,7 @@ nav ul li{
 	
 }
 
-/*sobre*/
+/*jk rowling*/
 
 div#jkrowling{
 	height: 300px;
@@ -35,7 +35,7 @@ div#jkrowling h1{
 }
 
 
-/*livros*/
+/*hp store*/
 
 div#hpstore{
 	height: 300px;
@@ -47,4 +47,10 @@ div#hpstore a{
 	background-image: url(imagens/hogwarts.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+/*sobre*/
+
+div#sobre img{
+	margin-top: 100px;
 }
