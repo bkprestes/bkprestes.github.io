@@ -50,6 +50,9 @@ div#jkrowling h1 a{
 	text-shadow: 2px 2px 2px gray;
 }
 
+div#jkrowling h1 a:hover{
+	color: yellow;
+}
 
 /*hp store*/
 
@@ -72,6 +75,10 @@ div#hpstore h2 a{
 	font-weight: 900;
 	text-shadow: 2px 2px 2px gray;
 	
+}
+
+div#hpstore h2 a:hover{
+	color: yellow;
 }
 
 
@@ -97,19 +104,48 @@ div#tourstudio h2 a{
 	
 }
 
+div#tourstudio h2 a:hover{
+	color: yellow;
+}
+
 
 /*sobre*/
 
 div#sobre img{
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
+
+div#sobre h1{
+	font-family: Lora;
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+	margin-top: 50px;
+}
+
 
 /*livros*/
 
 ul#lista-livros{
 	list-style: none;
+	max-width: 300px;
+	margin: auto;
 	
 
+}
+
+h2.selecionar-livro{
+	padding-top: 100px;
+	text-align: center;
+	font-family: Lora;
+	text-shadow: 2px 2px 2px gray;
+}
+
+img.img-harry{
+	
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 /*footer*/
