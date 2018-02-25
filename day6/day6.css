@@ -22,7 +22,7 @@ nav ul{
 nav ul li{
 
 	list-style: none;
-	margin-right: 15px;
+	margin-right: 5px;
 	
 }
 
@@ -132,6 +132,15 @@ ul#lista-livros{
 	margin: auto;
 	
 
+}
+
+ul#lista-livros li>a{
+	color: black;
+}
+
+ul#lista-livros li>a:hover{
+	color: white;
+	text-decoration: none;
 }
 
 h2.selecionar-livro{
