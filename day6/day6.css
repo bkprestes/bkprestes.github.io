@@ -1,0 +1,19 @@
+
+nav{
+	text-align: center;
+}
+
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+nav ul li{
+
+	list-style: none;
+	margin-right: 15px;
+	
+}
