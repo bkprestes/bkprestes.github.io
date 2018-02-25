@@ -31,6 +31,10 @@ nav ul li{
 div#jkrowling{
 	height: 300px;
 	text-align: center;
+	background-image: url(imagens/castle.jpeg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
 }
 
 div#jkrowling h1{
