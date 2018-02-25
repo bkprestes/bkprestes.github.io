@@ -54,3 +54,11 @@ div#hpstore a{
 div#sobre img{
 	margin-top: 100px;
 }
+
+/*livros*/
+
+ul#lista-livros{
+	list-style: none;
+	
+
+}
