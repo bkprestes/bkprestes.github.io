@@ -1,111 +1,35 @@
 <!doctype html>
 <html lang="pt-br">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="day6.css">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    <link rel="stylesheet" type="text/css" href="day7.css">
 
-    <title>Book/Author</title>
+	    <title>Trailer/Movie</title>
     
-    <script type="text/javascript">
-
-            var httpRequest;
-
-            function fazerRequisicao(url, destino){
-
-             
-                if(window.XMLHttpRequest){
-                    httpRequest = new XMLHttpRequest();
-                }else if(window.ActiveXObject){
-                    try{
-
-                        httpRequest = new ActiveXObject("Msxml2.XMLHTTP");
-
-                    }catch(e){
-
-                        try{
-
-                            httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
-
-                        }catch(e){
-
-                            alert("Impossível instanciar o objeto XMLHttpRequest para esse navegador/versão");
-
-                        }
-
-                    }
-                }
-
-                if(!httpRequest){
-                    alert("Erro ao tentar criar uma instância do objeto XMLHttpRequest");
-                    return false;
-                }
-
-                httpRequest.onreadystatechange = situacaoRequisicao;
-
-                httpRequest.open("GET", url);
-                httpRequest.send();
-
-            }
-
-            function situacaoRequisicao(){
-
-                if(httpRequest.readyState == 4){
-                    
-                    if(httpRequest.status == 200){
-
-                        document.getElementById('conteudo').innerHTML = httpRequest.responseText;
-
-                    }
-
-                }
-
-            }
-
-        </script>
-
-</head>
-    <nav>
-    	<ul>
-    		<li><a class="btn btn-dark" href="#" onclick="fazerRequisicao('home.html', 'conteudo')">Home</a></li>
-    		<li><a class="btn btn-dark" href="#" onclick="fazerRequisicao('sobre.html', 'conteudo')">Sobre</a></li>
-    		<li><a class="btn btn-dark" href="#" onclick="fazerRequisicao('livros.html', 'conteudo')">Livros</a></li>
-    	</ul>
-    </nav>
-
-    <div id="conteudo">
-    	<div id="jkrowling">
-            <h1><a href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></h1>
-        </div>
-        <div id="hpstore">
-            <h2><a href="https://www.harrypotterstore.com.br/" target="_blank">Harry Potter Store</a></h2>
-        </div>
-        <div id="tourstudio">
-      <h2><a href="https://www.wbstudiotour.co.uk/" target="_blank">Tour Studio Warner Bros</a></h2>
-    </div>
-    </div>
-
-    <footer class="bg-dark">
-        <small>Desenvolvido por <a href="https://bkprestes.github.io" target="_blank">Rebeca Prestes</a>. </small>
-    </footer>
-
-
     
-  </head>
-  <body>
+
+	</head>
+    
+	<body>
+
+		<!-- Imagem principal-->
+		<div id="imagem-principal">
+			
+		</div>
    
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	    <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    
 
-    </script>
-  </body>
+    
+  	</body>
 </html>
