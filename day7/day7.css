@@ -4,3 +4,39 @@ div#imagem-principal{
 	background-size: cover;
 	background-position: center;
 }
+
+div.row{
+	height: 100%;
+}
+
+div#menu{
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+div#menu ul{
+	color: white;
+	font-weight: 900;
+	font-size: 20px;
+	list-style: none;
+}
+
+div#menu ul li{
+	text-shadow: 1px 0px 0px black,
+				-1px 0px 0px black,
+				0px 1px 0px black,
+				0px -1px 0px black;
+}
+
+div#menu ul li:hover{
+	cursor: pointer;
+	font-size: 22px;
+	text-shadow: 1px 0px 0px black,
+				-1px 0px 0px black,
+				0px 1px 0px black,
+				0px -1px 0px black;
+	
+
+
+}
