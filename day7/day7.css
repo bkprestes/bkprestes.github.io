@@ -1,0 +1,6 @@
+div#imagem-principal{
+	background-image: url(imagens/the100.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+}
