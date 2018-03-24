@@ -1,11 +1,16 @@
 
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 html{
 	background-color: #f4f2f1;
 }
 
+/*nav*/
 nav{
 	
 	padding-top: 5px;
+	padding-bottom: 10px;
 	background-color: #f4f2f1;
 	
 }
@@ -21,5 +26,32 @@ nav ul li a{
 	color: #63594f;
 	text-transform: uppercase;
 	padding-right: 10px;
+
+}
+
+/*rebeca*/
+div.principal-rebeca{
+	background-color: #f4f2f1;
+}
+
+div#foto-rebeca{
+	width: 200px;
+	height: 200px;
+	background-color: #236da9;
+	display: inline-block;
+}
+
+img.rebeca{
+	margin-left: -170px;
+	margin-top: -130px;
+}
+
+div.texto-rebeca{
+	padding-top: 20px;
+}
+
+div.texto-rebeca h1{
+	font-family: "Playfair Display";
+	font-size: 4em;
 
 }
