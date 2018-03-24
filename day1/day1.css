@@ -1,0 +1,25 @@
+
+html{
+	background-color: #f4f2f1;
+}
+
+nav{
+	
+	padding-top: 5px;
+	background-color: #f4f2f1;
+	
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+
+nav ul li a{
+	color: #63594f;
+	text-transform: uppercase;
+	padding-right: 10px;
+
+}
