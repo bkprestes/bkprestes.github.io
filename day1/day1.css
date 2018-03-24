@@ -32,12 +32,14 @@ nav ul li a{
 /*rebeca*/
 div.principal-rebeca{
 	background-color: #f4f2f1;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 div#foto-rebeca{
 	width: 200px;
 	height: 200px;
-	background-color: #236da9;
+	background-color: black;
 	display: inline-block;
 }
 
@@ -54,4 +56,25 @@ div.texto-rebeca h1{
 	font-family: "Playfair Display";
 	font-size: 4em;
 
+}
+
+/*sobre*/
+
+div.sobre-mim{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0d293f;
+	color: #eaeaea;
+}
+
+div.texto-sobre h2{
+	font-family: "Playfair Display";
+}
+
+div.texto-sobre h5{
+	font-weight: 400;
+}
+
+div.imagem-sobre img{
+	width: 250px;
 }
