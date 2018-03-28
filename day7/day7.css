@@ -40,3 +40,7 @@ div#menu ul li:hover{
 
 
 }
+
+.hide{
+	display: none;
+}
