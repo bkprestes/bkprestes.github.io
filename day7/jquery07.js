@@ -53,5 +53,18 @@ $(window).on('load', function(){
 		episodios.addClass('hide');
 	});
 
+	$('#titulo').click(function(){
+
+		galeria.addClass('hide');
+		galeria.removeClass('show');
+
+		sinopse.removeClass('show');
+		sinopse.addClass('hide');
+		trailer.removeClass('show');
+		trailer.addClass('hide');
+		episodios.removeClass('show');
+		episodios.addClass('hide');
+	});
+
 
 });

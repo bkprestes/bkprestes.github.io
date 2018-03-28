@@ -1,9 +1,22 @@
+html{
+	background-color: rgb(3,4,6);
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*imagem fundo*/
 div#imagem-principal{
 	background-image: url(imagens/the100.jpg);
 	height: 600px;
 	background-size: cover;
 	background-position: center;
 }
+
+/*menu*/
 
 div.row{
 	height: 100%;
