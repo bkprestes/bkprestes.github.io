@@ -2,7 +2,7 @@ $(window).on('load', function(){
 	var sinopse = $('.sinopse');
 	var trailer = $('.trailer');
 	var episodios = $('.episodios');
-	var atores = $('.atores');
+	var galeria = $('.galeria');
 
 	$('#sinopse').click(function(){
 		sinopse.addClass('show');
@@ -12,8 +12,8 @@ $(window).on('load', function(){
 		trailer.addClass('hide');
 		episodios.removeClass('show');
 		episodios.addClass('hide');
-		atores.removeClass('show');
-		atores.addClass('hide');
+		galeria.removeClass('show');
+		galeria.addClass('hide');
 	});
 
 	
@@ -25,8 +25,8 @@ $(window).on('load', function(){
 		sinopse.addClass('hide');
 		episodios.removeClass('show');
 		episodios.addClass('hide');
-		atores.removeClass('show');
-		atores.addClass('hide');
+		galeria.removeClass('show');
+		galeria.addClass('hide');
 	});
 
 	$('#episodios').click(function(){
@@ -37,13 +37,13 @@ $(window).on('load', function(){
 		sinopse.addClass('hide');
 		trailer.removeClass('show');
 		trailer.addClass('hide');
-		atores.removeClass('show');
-		atores.addClass('hide');
+		galeria.removeClass('show');
+		galeria.addClass('hide');
 	});
 
-	$('#atores').click(function(){
-		atores.addClass('show');
-		atores.removeClass('hide');
+	$('#galeria').click(function(){
+		galeria.addClass('show');
+		galeria.removeClass('hide');
 
 		sinopse.removeClass('show');
 		sinopse.addClass('hide');
