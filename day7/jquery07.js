@@ -10,6 +10,10 @@ $(window).on('load', function(){
 
 		trailer.removeClass('show');
 		trailer.addClass('hide');
+		episodios.removeClass('show');
+		episodios.addClass('hide');
+		atores.removeClass('show');
+		atores.addClass('hide');
 	});
 
 	
@@ -19,6 +23,10 @@ $(window).on('load', function(){
 
 		sinopse.removeClass('show');
 		sinopse.addClass('hide');
+		episodios.removeClass('show');
+		episodios.addClass('hide');
+		atores.removeClass('show');
+		atores.addClass('hide');
 	});
 
 	$('#episodios').click(function(){
@@ -29,6 +37,8 @@ $(window).on('load', function(){
 		sinopse.addClass('hide');
 		trailer.removeClass('show');
 		trailer.addClass('hide');
+		atores.removeClass('show');
+		atores.addClass('hide');
 	});
 
 	$('#atores').click(function(){
