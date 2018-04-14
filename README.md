@@ -1,1 +1,1 @@
-Esses arquivos fazem parte do desafio 30Days30Sites em que eu estou participando.
+Todos os arquivos, encontrados nesse repositório do Github, fazem parte da minha página pessoal.
