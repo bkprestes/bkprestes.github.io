@@ -22,6 +22,6 @@ nav{
 
 /*portfolio*/
 
-div#portfolio div.row{
+div#portfolio div.row div{
 	margin-bottom: 20px;
 }
