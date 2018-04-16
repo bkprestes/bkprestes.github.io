@@ -79,3 +79,12 @@ footer h6 a{
 footer h6 a:hover{
 	color: red;
 }
+
+/*media screen*/
+
+@media screen and (min-width: 992px){
+	#agenda-shows>div.row{
+		width: 900px;
+		margin: auto;
+	}
+}
