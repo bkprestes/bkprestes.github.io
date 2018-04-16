@@ -9,7 +9,7 @@ header#img-header{
 }
 
 header#img-header h1{
-	padding-top: 180px;
+	
 	text-align: center;
 }
 
@@ -70,6 +70,15 @@ div#footer{
 	padding-bottom: 25px;
 	text-align: center;
 }
+
+/* MEDIA SCREEN*/
+
+@media screen and (min-width: 250px) {
+	header#img-header h1{
+		padding-top: 140px;
+	}
+}
+
 
 @media screen and (min-width: 768px) {
 	iframe{
