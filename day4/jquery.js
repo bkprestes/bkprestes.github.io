@@ -11,18 +11,26 @@ $(function(){
 		$(this).attr('src', 'imagens/pixi-branco2.jpg')
 		$('.navbar').removeClass('bg-dark')
 		$('.navbar').addClass('bg-light')
+		$('.nav-item').add('.navbar-brand').removeClass('text-white')
+		$('.nav-item').add('.navbar-brand').addClass('text-dark')
 	},
 	function(){
 		$(this).attr('src', 'imagens/pixi-branco.jpg')
 		$('.navbar').removeClass('bg-light')
 		$('.navbar').addClass('bg-dark')
+		$('.nav-item').add('.navbar-brand').removeClass('text-dark')
+		$('.nav-item').add('.navbar-brand').addClass('text-white')
 	});
 
 	$('#vermelho').hover(function(){
 		$(this).attr('src', 'imagens/pixi-vermelho2.jpg')
+		$('.navbar').removeClass('bg-dark')
+		$('.navbar').addClass('bg-danger')
 	},
 	function(){
 		$(this).attr('src', 'imagens/pixi-vermelho.jpg')
+		$('.navbar').removeClass('bg-danger')
+		$('.navbar').addClass('bg-dark')
 	});
 
 	$('#azul').hover(function(){
