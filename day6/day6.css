@@ -162,6 +162,10 @@ div.imagem-livro{
 	height: 350px;
 }
 
+.hide{
+	display: none;
+}
+
 /*footer*/
 
 footer{
