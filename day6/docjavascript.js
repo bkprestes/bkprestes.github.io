@@ -50,3 +50,11 @@ var httpRequest;
                 }
 
             }
+
+
+            /*jQuery*/
+
+            $('#1').click(function(){
+                $('#pedra-filosofal').removeClass('hide').addClass('show')
+
+            });
