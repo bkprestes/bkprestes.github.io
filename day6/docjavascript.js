@@ -52,12 +52,4 @@ var httpRequest;
             }
 
 
-            /*jQuery*/
-
-            $('#1').click(function(){
-                $('.selecionar-livro').removeClass('show');
-                $('.selecionar-livro').addClass('hide');
-                $('#pedra-filosofal').removeClass('hide');
-                $('#pedra-filosofal').addClass('show');
-
-            });
+            
