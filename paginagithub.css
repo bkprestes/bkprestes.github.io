@@ -26,6 +26,20 @@ div#portfolio div.row div{
 	margin-bottom: 20px;
 }
 
+.img-maior{
+	box-shadow: 10px 10px 10px rgb(155, 149, 149);
+	-webkit-transform: scale(1.15);
+	/* Safari and Chrome */
+	-moz-transform: scale(1.15);
+	/* Firefox */
+	-ms-transform: scale(1.15);
+	/* IE 9 */
+	-o-transform: scale(1.15);
+	/* Opera */
+	transform: scale(1.15);
+}
+
+
 /*contato*/
 
 #contato ul li a{
