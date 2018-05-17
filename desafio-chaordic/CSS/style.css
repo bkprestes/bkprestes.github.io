@@ -1,0 +1,146 @@
+body{
+
+	margin: 0px;
+	margin-left: -10px;
+}
+
+
+div#produtos{
+	display: inline-flex;
+	position: fixed;
+	margin-top: 10px;
+}
+
+
+
+div.product, #produto{
+	width: 200px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.old-price{
+	font-size: 12px;
+	color: #000000;
+}
+
+.price{
+	color: red;
+	font-size: 24px;
+	display: block;
+}
+
+.product-info{
+	color: red;
+	font-size: 12px;
+}
+
+.link-prod-reference{
+	display: inline-block;
+
+
+}
+
+a:link{
+	text-decoration: none;
+}
+
+p{
+	color: #000000;
+}
+
+/*paginacao*/
+#product-reference{
+	width: 200px;
+	z-index: 1000;
+	background-color: white;
+	margin-right: 25px;
+	padding-left: 5px;
+	
+}
+
+#recommended{
+	width: 1500;
+	display: inline-block;
+	overflow: hidden;
+
+}
+
+#product-recommended{
+	display: flex;
+	left: 0;
+	position: relative;
+	-webkit-transition: .2s left;
+	-moz-transition: .2s left;
+	-ms-transition: .2s left;
+	-o-transition: .2s left;
+
+
+}
+
+#prev, #next{
+	display: flex;
+	z-index: 1;
+	font-size: 50px;	
+	margin-top: 100px;
+	height: 50px;
+	position: relative;
+
+}
+
+#prev{
+	
+}
+
+#next{
+	margin-left: -1500px;
+}
+
+.disabled{
+	color: #ccc;
+}
+
+#view{
+	display: block;
+	padding: 5px 0 5px 0;
+	margin-left: 15px;
+	font-size: 24px;
+	color: #06699C;
+	background: linear-gradient(#EFF7FE, #FCFDFF, #EFF7FE);
+	background: -webkit-linear-gradient(#EFF7FE, #FCFDFF, #EFF7FE);
+	background:	-moz-linear-gradient(#EFF7FE, #FCFDFF, #EFF7FE);
+	background:	-o-linear-gradient(#EFF7FE, #FCFDFF, #EFF7FE);
+	background:	-ms-linear-gradient(#EFF7FE, #FCFDFF, #EFF7FE);
+}
+
+#recommended-view{
+	margin-left: 200px;
+}
+
+.product a img, #produto a img{
+	display: block;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, -50%);
+	margin-top: 60px;
+	margin-bottom: -50px;
+}
+.product img{
+	border: 1px solid white;
+}
+.product-img-hover{
+	border: 1px solid blue;
+}
+
+.product:hover, #produto:hover{
+	background: linear-gradient(#EFF7FE, #FCFDFF);
+	background: -webkit-linear-gradient(#EFF7FE, #FCFDFF);
+	background:	-moz-linear-gradient(#EFF7FE, #FCFDFF);
+	background:	-o-linear-gradient(#EFF7FE, #FCFDFF);
+	background:	-ms-linear-gradient(#EFF7FE, #FCFDFF);
+}
+
+.product p{
+	height: 50px;
+}
+
