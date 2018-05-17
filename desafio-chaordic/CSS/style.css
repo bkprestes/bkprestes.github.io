@@ -29,7 +29,7 @@ div.product, #produto{
 	font-size: 24px;
 	display: block;
 }
-
+ 
 .product-info{
 	color: red;
 	font-size: 12px;
@@ -49,7 +49,7 @@ p{
 	color: #000000;
 }
 
-/*paginacao*/
+/*reference*/
 #product-reference{
 	width: 200px;
 	z-index: 1000;
@@ -58,7 +58,7 @@ p{
 	padding-left: 5px;
 	
 }
-
+/*recommended*/
 #recommended{
 	width: 1500;
 	display: inline-block;
@@ -78,6 +78,7 @@ p{
 
 }
 
+/*buttons*/
 #prev, #next{
 	display: flex;
 	z-index: 1;
@@ -88,9 +89,6 @@ p{
 
 }
 
-#prev{
-	
-}
 
 #next{
 	margin-left: -1500px;
@@ -99,7 +97,7 @@ p{
 .disabled{
 	color: #ccc;
 }
-
+/*barra view*/
 #view{
 	display: block;
 	padding: 5px 0 5px 0;
@@ -117,6 +115,7 @@ p{
 	margin-left: 200px;
 }
 
+/*imagem dos produtos*/
 .product a img, #produto a img{
 	display: block;
 	position:relative;
