@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 	<title>Calculadora Termossolar</title>
+	<link rel="stylesheet" type="text/css" href="./css/estilo.css">
 </head>
 <body>
 
@@ -10,7 +11,8 @@
 
 	<form>
 		<div>
-			<select>
+			<select name="peca">
+				<option>Escolha uma peça...</option>
 				<option>Ducha de banho</option>
 				<option>Lavatório</option>
 				<option>Ducha higiênica</option>
@@ -22,15 +24,24 @@
 		</div>
 		<div>
 			<label id="vazao"></label>
-			<input type="number" name="vazao">
+			<input type="number" name="vazao" class="hide">
 			<label id="tempo-medio-seg-dia"></label>
-			<input type="number" name="tempo-medio">
+			<input type="number" name="tempo-medio" class="hide">
 			<label id="quantidade-uso-dia"></label>
-			<input type="number" name="qtd-uso">
+			<input type="number" name="qtd-uso" class="hide">
 
 		</div>
-		<button>OK</button>
+		<button class="hide">OK</button>
+
+		<div>
+			<label>Qual o local que se pretende realizar a instalação das placas termossolares?</label>
+			<select name="capital-brasileira">
+				
+			</select>
+		</div>
 	</form>
+
+
 
 </body>
 </html>
