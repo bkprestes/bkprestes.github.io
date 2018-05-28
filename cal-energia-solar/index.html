@@ -12,27 +12,28 @@
 
 		<form method="post">
 			<div>
-				<select name="peca">
+				<select id="peca">
 					<option>Escolha uma peça...</option>
-					<option id="ducha-banho">Ducha de banho</option>
-					<option id="lavatorio">Lavatório</option>
-					<option id="ducha-higienica">Ducha higiênica</option>
-					<option id="banheira">Banheira</option>
-					<option id="pia-de-cozinha">Pia de cozinha</option>
-					<option id="lava-loucas">Lava-louças</option>
-					<option id="maquina-lavar-roupa">Máquina de lavar roupa</option>
+					<option value="ducha-banho">Ducha de banho</option>
+					<option value="lavatorio">Lavatório</option>
+					<option value="ducha-higienica">Ducha higiênica</option>
+					<option value="banheira">Banheira</option>
+					<option value="pia-de-cozinha">Pia de cozinha</option>
+					<option value="lava-loucas">Lava-louças</option>
+					<option value="maquina-lavar-roupa">Máquina de lavar roupa</option>
 				</select>
 			</div>
-			<div>
-				<label id="vazao"></label>
-				<input type="number" name="vazao" class="hide">
-				<label id="tempo-medio-seg-dia"></label>
-				<input type="number" name="tempo-medio" class="hide">
-				<label id="quantidade-uso-dia"></label>
-				<input type="number" name="qtd-uso" class="hide">
+			<div class="hide" id="formulario">
+				<label id="vazao">Vazão</label>
+				<input type="number" name="vazao" ><br>
+				<label id="tempo-medio-seg-dia">Tempo Médio de Uso Diário(s)</label>
+				<input type="number" name="tempo-medio"><br>
+				<label id="quantidade-uso-dia">Quantidade de Uso Diário</label>
+				<input type="number" name="qtd-uso"><br>
+				<button>OK</button>
 
 			</div>
-			<button class="hide">OK</button>
+			
 
 			<div>
 				<label>Qual o local que se pretende realizar a instalação das placas termossolares?</label>

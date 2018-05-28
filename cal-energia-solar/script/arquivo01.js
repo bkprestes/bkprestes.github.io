@@ -1,3 +1,14 @@
+const peca = document.getElementById('peca')
+peca.onchange = function(){
+    if(this.value=='ducha-banho' || this.value=='lavatorio' || this.value=='ducha-higienica' || this.value=='banheira' || this.value=='pia-de-cozinha'){
+        const formulario = document.getElementById('formulario')
+        formulario.setAttribute('class', 'show')
+    }
+}
+
+
+
+
 const capital = document.getElementById('capital')
 
 const arrayCapitais = ['Florianópolis', 'São Paulo', 'Salvador', 'Porto Alegre']
