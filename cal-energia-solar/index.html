@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<title>Calculadora Termossolar</title>
-	<link rel="stylesheet" type="text/css" href="./css/estilo.css">
-	<script type="text/javascript" href="./script/arquivo01.js"></script>
-</head>
-<body>
+	<head>
+		<title>Calculadora Termossolar</title>
+		<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+		
+	</head>
+	<body>
 
-	<h1>Calculadora para Energia Termossolar</h1>
-	<h4>Escolha uma peça e preencha as informações necessárias nos campos abaixo:</h4>
+		<h1>Calculadora para Energia Termossolar</h1>
+		<h4>Escolha uma peça e preencha as informações necessárias nos campos abaixo:</h4>
 
-	<form>
-		<div>
-			<select name="peca">
-				<option>Escolha uma peça...</option>
-				<option id="ducha-banho">Ducha de banho</option>
-				<option id="lavatorio">Lavatório</option>
-				<option id="ducha-higienica">Ducha higiênica</option>
-				<option id="banheira">Banheira</option>
-				<option id="pia-de-cozinha">Pia de cozinha</option>
-				<option id="lava-loucas">Lava-louças</option>
-				<option id="maquina-lavar-roupa">Máquina de lavar roupa</option>
-			</select>
-		</div>
-		<div>
-			<label id="vazao"></label>
-			<input type="number" name="vazao" class="hide">
-			<label id="tempo-medio-seg-dia"></label>
-			<input type="number" name="tempo-medio" class="hide">
-			<label id="quantidade-uso-dia"></label>
-			<input type="number" name="qtd-uso" class="hide">
+		<form method="post">
+			<div>
+				<select name="peca">
+					<option>Escolha uma peça...</option>
+					<option id="ducha-banho">Ducha de banho</option>
+					<option id="lavatorio">Lavatório</option>
+					<option id="ducha-higienica">Ducha higiênica</option>
+					<option id="banheira">Banheira</option>
+					<option id="pia-de-cozinha">Pia de cozinha</option>
+					<option id="lava-loucas">Lava-louças</option>
+					<option id="maquina-lavar-roupa">Máquina de lavar roupa</option>
+				</select>
+			</div>
+			<div>
+				<label id="vazao"></label>
+				<input type="number" name="vazao" class="hide">
+				<label id="tempo-medio-seg-dia"></label>
+				<input type="number" name="tempo-medio" class="hide">
+				<label id="quantidade-uso-dia"></label>
+				<input type="number" name="qtd-uso" class="hide">
 
-		</div>
-		<button class="hide">OK</button>
+			</div>
+			<button class="hide">OK</button>
 
-		<div>
-			<label>Qual o local que se pretende realizar a instalação das placas termossolares?</label>
-			<select name="capital-brasileira">
+			<div>
+				<label>Qual o local que se pretende realizar a instalação das placas termossolares?</label>
+				<select id="capital">
+					
+				</select>
 				
-			</select>
-		</div>
-	</form>
+			</div>
+		</form>
 
 
-
-</body>
+		<script type="text/javascript" src="./script/arquivo01.js"></script>
+	</body>
 </html>
