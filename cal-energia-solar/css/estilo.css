@@ -3,5 +3,27 @@
 }
 
 body{
-	background-color: pink;
+	background-color: #e5e5e5;
+	padding: 10px;
+}
+
+span{
+	display: block;
+	margin: 50px 0 50px 0;
+}
+
+/*formulario*/
+
+form{
+	margin-top: 30px;
+}
+
+label.form-peca{
+	width: 120px;
+	text-align: center;
+}
+
+button#ok{
+	width: 70px;
+	background-color: orange;
 }

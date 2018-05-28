@@ -3,6 +3,9 @@ peca.onchange = function(){
     if(this.value=='ducha-banho' || this.value=='lavatorio' || this.value=='ducha-higienica' || this.value=='banheira' || this.value=='pia-de-cozinha'){
         const formulario = document.getElementById('formulario')
         formulario.setAttribute('class', 'show')
+    }else{
+        formulario.setAttribute('class', 'hide')
+        
     }
 }
 

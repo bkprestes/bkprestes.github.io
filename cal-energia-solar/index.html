@@ -2,49 +2,67 @@
 <html lang="pt-br">
 	<head>
 		<title>Calculadora Termossolar</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+
 		
 	</head>
 	<body>
 
 		<h1>Calculadora para Energia Termossolar</h1>
-		<h4>Escolha uma peça e preencha as informações necessárias nos campos abaixo:</h4>
+		<h6>Escolha uma peça e preencha as informações necessárias nos campos abaixo:</h6>
 
 		<form method="post">
-			<div>
-				<select id="peca">
-					<option>Escolha uma peça...</option>
-					<option value="ducha-banho">Ducha de banho</option>
-					<option value="lavatorio">Lavatório</option>
-					<option value="ducha-higienica">Ducha higiênica</option>
-					<option value="banheira">Banheira</option>
-					<option value="pia-de-cozinha">Pia de cozinha</option>
-					<option value="lava-loucas">Lava-louças</option>
-					<option value="maquina-lavar-roupa">Máquina de lavar roupa</option>
-				</select>
-			</div>
-			<div class="hide" id="formulario">
-				<label id="vazao">Vazão</label>
-				<input type="number" name="vazao" ><br>
-				<label id="tempo-medio-seg-dia">Tempo Médio de Uso Diário(s)</label>
-				<input type="number" name="tempo-medio"><br>
-				<label id="quantidade-uso-dia">Quantidade de Uso Diário</label>
-				<input type="number" name="qtd-uso"><br>
-				<button>OK</button>
+			<div id="escolha-peca" class="row">
+				<div class="col-sm-4">
+				<label>Peça:</label><br>
+					<select id="peca">
+						<option>Escolha uma peça...</option>
+						<option value="ducha-banho">Ducha de banho</option>
+						<option value="lavatorio">Lavatório</option>
+						<option value="ducha-higienica">Ducha higiênica</option>
+						<option value="banheira">Banheira</option>
+						<option value="pia-de-cozinha">Pia de cozinha</option>
+						<option value="lava-loucas">Lava-louças</option>
+						<option value="maquina-lavar-roupa">Máquina de lavar roupa</option>
+					</select>
+				</div>
+				<div class="hide col-sm-8" id="formulario">
+					<label id="vazao" class="form-peca">Vazão (m³/s)</label>
+					<input type="number" name="vazao" placeholder="Digite a vazão"><br>
+					<label id="tempo-medio-seg-dia" class="form-peca">Tempo Médio Uso Diário (s)</label>
+					<input type="number" name="tempo-medio" placeholder="Digite o tempo em s"><br>
+					<label id="quantidade-uso-dia" class="form-peca">Quantidade de Uso Diário</label>
+					<input type="number" name="qtd-uso" placeholder="Digite a quantidade"><br>
+					<button id="ok">OK</button>
 
+				</div>
 			</div>
+			<span>*Se o campo da vazão estiver em branco, então será considerada a vazão média do equipamento estipulada na NBR 15.569</span>
 			
 
 			<div>
 				<label>Qual o local que se pretende realizar a instalação das placas termossolares?</label>
 				<select id="capital">
+					<option>Escolha uma capital BR</option>
 					
 				</select>
 				
+			</div>
+
+			<div>
+				<h4>Escolha uma placa termossolar de sua preferência</h4>
+				<select id="placas">
+					<option>Escolha uma placa</option>
+				</select>
 			</div>
 		</form>
 
 
 		<script type="text/javascript" src="./script/arquivo01.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	</body>
 </html>
