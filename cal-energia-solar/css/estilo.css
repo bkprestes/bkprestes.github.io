@@ -27,3 +27,18 @@ button#ok1, button#ok2{
 	width: 70px;
 	background-color: orange;
 }
+
+/*tabela dinamica*/
+
+th, td{
+	width: 130px;
+	text-align: center;
+}
+
+table, td, th{
+	border: 1px solid #000;
+}
+
+table{
+	margin-bottom: 15px;
+}
