@@ -23,7 +23,7 @@ label.form-peca{
 	text-align: center;
 }
 
-button#ok{
+button#ok1, button#ok2{
 	width: 70px;
 	background-color: orange;
 }
