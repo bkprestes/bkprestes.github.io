@@ -42,12 +42,25 @@ div#portfolio div.row div{
 
 /*contato*/
 
+#contato ul{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#contato ul li{
+	list-style-type: none;
+	margin-right: 25px;
+}
+
 #contato ul li a{
 	color: black;
+	font-size: 50px;
 }
 
 #contato ul li a:hover{
-	color: red;
+	color: pink;
+	text-decoration: none;
 }
 
 /*footer*/
