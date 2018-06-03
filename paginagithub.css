@@ -14,7 +14,6 @@ body{
 /*navbar*/
 nav{
 	margin-top: 50px;
-	max-width: 500px;
 }
 
 .bg-light{
@@ -33,10 +32,7 @@ nav{
 	position: fixed;
 	z-index: 1000;
 	top: 0;
-	left: 0;
-	right: 0;
 	padding-right: 0px;
-	background-color: rgba(0,0,0,0.8);
 	width: 100%;
 	transition: .3s;
 }
@@ -47,6 +43,10 @@ nav{
 	display: block;
 	margin: auto;
 	border: 3px dashed rgba(0,0,0,0.8);
+}
+
+.hide{
+	display: none;
 }
 
 /*sobre mim*/
