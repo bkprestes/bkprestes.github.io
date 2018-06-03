@@ -110,6 +110,7 @@ ok2.onclick = function(){
     return false
 }
 
+const pecasNBR = {'Ducha de banho': 3.0, 'Lavatório': 3.0, 'Ducha higiênica': 3.0, 'Banheira': 80, 'Pia de cozinha': 2.4, 'Lava-louças': 20, 'Máquina de lavar roupa': 90}
 
 
 
