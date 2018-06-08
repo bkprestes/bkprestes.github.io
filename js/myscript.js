@@ -35,6 +35,17 @@ for(let i=0; i<4; i++){
     }
 }
 
+const h2Network = document.getElementById('links').getElementsByTagName('h2');
+
+
+    h2Network[0].onmouseover = function(){
+        h2Network[0].innerHTML = h2Network[0].getAttribute('data-traducao')
+    }
+    h2Network[0].onmouseout = function(){
+        h2Network[0].innerHTML = h2Network[0].getAttribute('data-original')
+    }
+
+
 
 
 

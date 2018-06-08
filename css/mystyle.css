@@ -97,6 +97,8 @@ h1, h2{
 	margin-right: 25px;
 }
 
+
+
 #links ul li a, #links-footer ul li a{
 	color: black;
 	font-size: 38px;
@@ -135,6 +137,7 @@ h1, h2{
 	#links ul{
 		flex-direction: column;
 		margin-top: 20px;
+		
 	}
 
 	/*redes sociais*/
