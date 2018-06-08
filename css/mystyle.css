@@ -5,6 +5,7 @@ body{
 	font-family: "Song Myung";
 	margin: -15px;
 	margin-bottom: 100px;
+	overflow-x: hidden;
 }
 
 #main{
@@ -105,8 +106,33 @@ h1, h2{
 	text-decoration: none;
 }
 
+.hide{
+	display: none;
+}
 
 
 
+@media screen and (min-width: 768px){
+
+	/*menu*/
+	#menu ul{
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	#menu ul li{
+		margin-bottom: 20px;
+	}
+
+	#links ul{
+		flex-direction: column;
+	}
+
+	/*redes sociais*/
+	#links ul li{
+		margin-bottom: 20px;
+
+	}
+}
 
 
