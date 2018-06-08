@@ -3,6 +3,11 @@
 
 body{
 	font-family: "Song Myung";
+	margin: -15px;
+}
+
+#main{
+	margin-top: 25px;
 }
 
 /*menu*/
@@ -16,9 +21,20 @@ body{
 	margin-right: 15px;
 }
 
+
 /*sobre mim*/
 
 #imagem a img{
 	width: 100%;
 	height: 250px;
+}
+
+#sobre-mim{
+	background-color: pink;
+	padding: 5px;
+}
+
+#sobre-mim, #portfolio, #contato{
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
