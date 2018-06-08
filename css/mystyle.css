@@ -88,6 +88,7 @@ h1, h2{
 #links ul{
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 
 }
 
@@ -126,6 +127,7 @@ h1, h2{
 
 	#links ul{
 		flex-direction: column;
+		margin-top: 20px;
 	}
 
 	/*redes sociais*/
