@@ -95,10 +95,10 @@
 			if(isset($_POST['enviar']))
 				{
 				//acessar a include, fora do diretório da nossa aplicação, que armazenma os dados de e-mail do remetente - nós, os desenvolvedores
-				require_once "../../../dados-email/acessa-email.inc.php";
+				require_once "./email/dados-email/acessa-email.inc.php";
 				
 				//chamar a include que conecta o nosso PHP à classe PHPMailer
-				require_once "./phpmailer/PHPMailerAutoload.php";
+				require_once "./email/phpmailer/PHPMailerAutoload.php";
 				
 				//receber os dados do formulário
 				$emailDoDestinatario = $_POST['email'];
