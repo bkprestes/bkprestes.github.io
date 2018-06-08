@@ -14,9 +14,6 @@ body{
 
 }
 
-#main{
-	margin-top: 25px;
-}
 
 h1, h2{
 	text-align: left;
@@ -69,10 +66,10 @@ h1, h2{
 /*contato*/
 
 #contato{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(102, 51, 0,0.7);
 }
 
-#contato div div form, #contato div div p{
+#contato div div form{
 	text-align: center;
 }
 
@@ -99,7 +96,6 @@ h1, h2{
 #links ul{
 	display: flex;
 	flex-direction: row;
-	text-align: center;
 
 }
 
@@ -130,10 +126,15 @@ h1, h2{
 	#menu ul{
 		flex-direction: column;
 		margin-top: 30px;
+		text-align: right;
 	}
 
 	#menu ul li{
 		margin-bottom: 20px;
+	}
+
+	#links{
+		margin-top: 10px;
 	}
 
 	#links ul{
@@ -145,6 +146,10 @@ h1, h2{
 	#links ul li{
 		margin-bottom: 20px;
 
+	}
+
+	#links h2{
+		font-size: 1em;
 	}
 }
 
