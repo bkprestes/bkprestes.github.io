@@ -44,3 +44,28 @@ body{
 #portfolio div div>img{
 	margin-top: 20px;
 }
+
+/*contato*/
+
+#contato{
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px;
+}
+
+#contato div div form>input, #contato div div form>textarea{
+	width: 100%;
+}
+
+#contato div div form>textarea{
+	height: 100px;
+}
+
+#contato div div form button{
+	float: right;
+}
+
+
+
+
+
+
