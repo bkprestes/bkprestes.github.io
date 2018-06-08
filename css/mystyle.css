@@ -1,11 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Song+Myung');
 
+html{
+	width: 100%;
+	height: 100%;
+}
+
 body{
 	font-family: "Song Myung";
-	margin: -15px;
 	margin-bottom: 100px;
-	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+
 }
 
 #main{
@@ -13,18 +19,21 @@ body{
 }
 
 h1, h2{
-	text-align: center;
+	text-align: left;
+	font-size: 2em;
 }
 
 /*menu*/
+
 #menu ul{
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
+	margin-left: -25px;
 }
 
 #menu ul li{
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 #menu ul li a{
@@ -37,7 +46,7 @@ h1, h2{
 
 #imagem a img{
 	width: 100%;
-	height: 250px;
+	min-height: 200px;
 }
 
 #sobre-mim{
@@ -53,7 +62,7 @@ h1, h2{
 
 /*portfolio*/
 
-#portfolio div div>img{
+#portfolio div div>a>img{
 	margin-top: 20px;
 }
 
@@ -79,7 +88,9 @@ h1, h2{
 }
 
 #contato div div form button{
-	background-color: blue;
+	background-color: black;
+	color: white;
+	border-style: none;
 }
 
 /*links*/
@@ -99,7 +110,7 @@ h1, h2{
 
 #links ul li a{
 	color: black;
-	font-size: 50px;
+	font-size: 38px;
 }
 
 #links ul li a:hover{
