@@ -5,10 +5,11 @@ const network = document.getElementById('menu-network');
 
 function verificarTamanho(){
     if(window.innerWidth>768){
-        linklink.appendChild(links);
+        linklink.classList.remove('hide')
         network.setAttribute('class', 'hide');
     }else{
         network.setAttribute('class', 'show');
+        linklink.classList.add('hide')
     }
 }
 

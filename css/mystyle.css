@@ -11,6 +11,7 @@ body{
 	margin-bottom: 100px;
 	margin: 0;
 	padding: 0;
+	background-color: rgba(102, 51, 0,0.5);
 
 }
 
@@ -62,7 +63,7 @@ h1, h2{
 	text-align: justify;
 }
 
-#sobre-mim, #portfolio, #contato, #links{
+#sobre-mim, #portfolio, #footer, #links{
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -76,54 +77,37 @@ h1, h2{
 
 /*contato*/
 
-#contato{
-	background-color: rgba(102, 51, 0,0.7);
+#footer{
+	background-color: rgba(0, 0, 0,0.7);
+	color: rgba(255,255,255,0.7);
 }
 
-#contato div div form{
-	text-align: center;
-}
-
-
-
-#contato div div form>input, #contato div div form>textarea{
-	width: 100%;
-	max-width: 450px;
-}
-
-#contato div div form>textarea{
-	height: 100px;
-}
-
-#contato div div form button{
-	background-color: black;
-	color: white;
-	border-style: none;
-}
 
 /*links*/
 
 
-#links ul{
+#links ul, #links-footer ul{
 	display: flex;
 	flex-direction: row;
 
 }
 
-#links ul li{
+#links ul li, #links-footer ul li{
 	list-style-type: none;
 	margin-right: 25px;
 }
 
-#links ul li a{
+#links ul li a, #links-footer ul li a{
 	color: black;
 	font-size: 38px;
 }
 
-#links ul li a:hover{
+#links ul li a:hover, #links-footer ul li a:hover{
 	color: rgba(219,112,147, 0.8);
 	text-decoration: none;
 }
+
+
 
 .hide{
 	display: none;
@@ -162,6 +146,22 @@ h1, h2{
 	#links h2{
 		font-size: 1em;
 	}
+
+	#links-footer h2{
+		text-align: right;
+	}
+
+	#links-footer ul{
+		margin-right: 5px;
+		margin-left: auto;
+		width: 130px;
+	}
+
+	#footer div div>h2{
+		font-size: 1em;
+	}
+
+	
 }
 
 
