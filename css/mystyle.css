@@ -34,6 +34,10 @@ h1, h2{
 
 /*menu*/
 
+#menu{
+	margin-top: 20px;
+}
+
 #menu ul{
 	list-style-type: none;
 	display: flex;
