@@ -142,11 +142,12 @@ ul#lista-livros{
 
 }
 
-ul#lista-livros li>a{
+ul#lista-livros>li{
 	color: black;
+	cursor: pointer;
 }
 
-ul#lista-livros li>a:hover{
+ul#lista-livros>li:hover{
 	color: white;
 	text-decoration: none;
 }
