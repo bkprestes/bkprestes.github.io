@@ -111,9 +111,11 @@ div#tourstudio h2 a:hover{
 
 /*sobre*/
 
-div#sobre img{
-	margin-top: 50px;
-	margin-bottom: 20px;
+.img-escritora{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+
 }
 
 div#sobre h1{
@@ -122,6 +124,11 @@ div#sobre h1{
 	text-shadow: 2px 2px 2px gray;
 	margin-top: 50px;
 }
+
+#texto-sobre{
+	margin-top: 50px;
+}
+
 
 
 /*livros*/
