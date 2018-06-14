@@ -46,21 +46,19 @@ const h2Network = document.getElementById('links').getElementsByTagName('h2');
         h2Network[0].innerHTML = h2Network[0].getAttribute('data-original')
     }
 
-function alterarImagem(){
-    const imagem = document.getElementsByTagName('img');
+function alterarImagem(imagem){
+    
+    
+    const ext = imagem.getAttribute('src').split('.').pop();
+    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "."+ext);
 
-    for(let i=0; i<imagem.length+1; i++){
-        const ext = imagem[i].getAttribute('src').split('.').pop();
-        imagem[i].onmouseover = function(){
-            imagem[i].setAttribute('src', "imagens/" + imagem[i].getAttribute('alt') + "."+ext);
-        }
-        imagem[i].onmouseout = function(){
-            imagem[i].setAttribute('src', "imagens/" + imagem[i].getAttribute('alt') + "0."+ext);
-        }
-    }
 }
 
-alterarImagem();
+function voltarOriginal(imagem){
+    const ext = imagem.getAttribute('src').split('.').pop();
+    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "0."+ext);
+}
+
 
 
 
