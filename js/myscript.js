@@ -50,13 +50,13 @@ function alterarImagem(imagem){
     
     
     const ext = imagem.getAttribute('src').split('.').pop();
-    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "."+ext);
+    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "-min."+ext);
 
 }
 
 function voltarOriginal(imagem){
     const ext = imagem.getAttribute('src').split('.').pop();
-    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "0."+ext);
+    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "0-min."+ext);
 }
 
 
