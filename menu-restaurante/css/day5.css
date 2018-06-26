@@ -2,7 +2,7 @@
 /*header*/
 
 header#img-header{
-	background-image: url('imagens/foto-header.jpeg');
+	background-image: url('../imagens/foto-header.jpeg');
 	background-position: center;
 	background-size: cover;
 	height: 400px;
