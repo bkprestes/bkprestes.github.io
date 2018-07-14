@@ -62,6 +62,10 @@ h1, h2{
 	min-height: 200px;
 }
 
+#imagem{
+	padding: 0px;
+}
+
 #sobre-mim{
 	background-color: rgba(219,112,147, 0.8);
 	text-align: justify;
@@ -71,6 +75,10 @@ h1, h2{
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.img-fluid{
+	width: 100%;
 }
 
 /*portfolio*/
