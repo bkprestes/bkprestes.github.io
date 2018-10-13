@@ -1,182 +1,111 @@
-
-@import url('https://fonts.googleapis.com/css?family=Song+Myung');
-
-html{
-	width: 100%;
-	height: 100%;
+@import url("https://fonts.googleapis.com/css?family=Song+Myung");
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-	font-family: "Song Myung";
-	margin-bottom: 100px;
-	margin: 0;
-	padding: 0;
-	background-color: rgba(102, 51, 0,0.5);
-
+nav {
+  position: relative;
 }
 
-
-h1, h2{
-	text-align: left;
-	font-size: 2em;
+#span-mobile {
+  background-color: #0c233b;
+  width: auto;
+  padding: 7px 0 10px 10px;
+}
+#span-mobile > span {
+  border-bottom: 1px solid gray;
+  width: 30px;
+  display: block;
+  padding: 3px;
 }
 
-/*main*/
-
-.container-fluid{
-	padding-left: 0px;
-	padding-right: 0px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;	
-	overflow-x: hidden;
+#menu {
+  display: none;
+  background-color: white;
+  width: 150px;
+  position: absolute;
+}
+#menu li {
+  list-style-type: none;
+}
+#menu #close-menu {
+  float: right;
 }
 
-/*menu*/
-
-#menu{
-	margin-top: 20px;
+.max-1200 {
+  max-width: 1200px;
 }
 
-#menu ul{
-	list-style-type: none;
-	display: flex;
-	flex-direction: row;
-	margin-left: -25px;
+#img-background div {
+  width: 90%;
+  text-align: center;
+  margin: 50px auto;
+}
+#img-background div span {
+  font-size: 18px;
+}
+#img-background div p {
+  font-size: 36px;
 }
 
-#menu ul li{
-	margin-right: 10px;
+#posts-blog .row {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 100px auto;
+}
+#posts-blog .row div {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  max-width: 280px;
 }
 
-#menu ul li a{
-	color: black;
-	text-decoration: none;
+#tech .row {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 50px auto;
+}
+#tech .row div .img-tech {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 10px 10px 5px gray;
+  background-size: cover;
+  background-position: center center;
+}
+#tech .row div #tech01 {
+  background-image: url(../imagens/html5.png);
+}
+#tech .row div #tech02 {
+  background-image: url(../imagens/css3.png);
+}
+#tech .row div #tech03 {
+  background-image: url(../imagens/javascript.png);
+}
+#tech .row div #tech04 {
+  background-image: url(../imagens/jquery.png);
+}
+#tech .row div #tech05 {
+  background-image: url(../imagens/wordpress.png);
 }
 
-
-/*sobre mim*/
-
-#imagem a img{
-	width: 100%;
-	min-height: 200px;
+#portfolio .row {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
-#imagem{
-	padding: 0px;
+section h3 {
+  text-align: center;
 }
 
-#sobre-mim{
-	background-color: rgba(219,112,147, 0.8);
-	text-align: justify;
-}
-
-#sobre-mim, #portfolio, #footer, #links{
-	padding: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.img-fluid{
-	width: 100%;
-}
-
-/*portfolio*/
-
-#portfolio div div>a>img{
-	margin-top: 20px;
-}
-
-/*contato*/
-
-#footer{
-	background-color: rgba(0, 0, 0,0.7);
-	color: rgba(255,255,255,0.7);
-}
-
-
-/*links*/
-
-
-#links ul, #links-footer ul{
-	display: flex;
-	flex-direction: row;
-
-}
-
-#links ul li, #links-footer ul li{
-	list-style-type: none;
-	margin-right: 25px;
-}
-
-
-
-#links ul li a, #links-footer ul li a{
-	color: black;
-	font-size: 38px;
-}
-
-#links ul li a:hover, #links-footer ul li a:hover{
-	color: rgba(219,112,147, 0.8);
-	text-decoration: none;
-}
-
-
-
-.hide{
-	display: none;
-}
-
-
-
-@media screen and (min-width: 768px){
-
-	/*menu*/
-	#menu ul{
-		flex-direction: column;
-		margin-top: 30px;
-		text-align: right;
-	}
-
-	#menu ul li{
-		margin-bottom: 20px;
-	}
-
-	#links{
-		margin-top: 10px;
-	}
-
-	#links ul{
-		flex-direction: column;
-		margin-top: 20px;
-		
-	}
-
-	/*redes sociais*/
-	#links ul li{
-		margin-bottom: 20px;
-
-	}
-
-	#links h2{
-		font-size: 1em;
-	}
-
-	#links-footer h2{
-		text-align: right;
-	}
-
-	#links-footer ul{
-		margin-right: 5px;
-		margin-left: auto;
-		width: 130px;
-	}
-
-	#footer div div>h2{
-		font-size: 1em;
-	}
-
-	
-}
-
-
+/*# sourceMappingURL=mystyle.css.map */

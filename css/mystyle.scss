@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+
+$color: pink;
+$blue: #0c233b;
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav{
+	position: relative;
+}
+
+#span-mobile{
+	background-color: $blue;
+	width: auto;
+	padding: 7px 0 10px 10px;
+
+	>span{
+		border-bottom: 1px solid gray;
+		width: 30px;
+		display: block;
+		padding: 3px;
+	}
+}
+
+
+#menu{
+	display: none;
+	background-color: white;
+	width: 150px;
+	position: absolute;
+
+	li{
+		list-style-type: none;
+	} 
+
+	#close-menu{
+		float: right;
+	}
+}
+
+.max-1200{
+	max-width: 1200px;
+}
+
+
+
+#img-background{
+	div{
+		width: 90%;
+		text-align: center;
+		margin: 50px auto;
+
+		span{
+			font-size: 18px;
+		}
+
+		p{
+			font-size: 36px;
+		}
+	}
+}
+
+#posts-blog{
+	.row{
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		margin: 100px auto;
+		div{
+			border: 1px solid gray;
+			padding: 5px;
+			margin: 5px;
+			box-sizing: border-box;
+			max-width: 280px;
+		}
+	}
+}
+
+#tech{
+	.row{
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		margin: 50px auto;
+		div{
+			.img-tech{
+				border-radius: 50%;
+				width:80px;
+				height: 80px;
+				margin: 10px auto;
+				display: block;
+				box-shadow: 10px 10px 5px gray;
+				background-size: cover;
+				background-position: center center;
+			}
+
+
+			#tech01{
+				background-image: url(../imagens/html5.png);
+
+			}
+
+			#tech02{
+				background-image: url(../imagens/css3.png);
+
+			}
+
+			#tech03{
+				background-image: url(../imagens/javascript.png);
+
+			}
+
+			#tech04{
+				background-image: url(../imagens/jquery.png);
+
+			}
+
+			#tech05{
+				background-image: url(../imagens/wordpress.png);
+
+			}
+
+			
+		}
+	}
+}
+
+#portfolio{
+	.row{
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		margin: auto;
+	}
+}
+
+section{
+	h3{
+		text-align: center;
+	}
+}
+

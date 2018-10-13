@@ -1,67 +1,52 @@
+window.onload = () => {
 
-const links = document.getElementById('links');
-const linklink = document.getElementById('network');
-const network = document.getElementById('menu-network');
+let menu = document.getElementById('menu');
 
-function verificarTamanho(){
-    if(window.innerWidth>768){
-        linklink.classList.remove('hide')
-        network.setAttribute('class', 'hide');
-    }else{
-        network.setAttribute('class', 'show');
-        linklink.classList.add('hide')
-    }
-}
-
-
-
-function redimensionar(){
-    verificarTamanho();
-}
-
-verificarTamanho();
-
-window.addEventListener('resize', function(){
-    redimensionar();
-});
-
-const menu = document.getElementById('lista-menu').getElementsByTagName('a');
-
-for(let i=0; i<4; i++){
-    menu[i].onmouseover = function(){
-        menu[i].innerHTML = menu[i].getAttribute('data-traducao')
-    }
-    menu[i].onmouseout = function(){
-        menu[i].innerHTML = menu[i].getAttribute('data-original')
-    }
-}
-
-const h2Network = document.getElementById('links').getElementsByTagName('h2');
-
-
-    h2Network[0].onmouseover = function(){
-        h2Network[0].innerHTML = h2Network[0].getAttribute('data-traducao')
-    }
-    h2Network[0].onmouseout = function(){
-        h2Network[0].innerHTML = h2Network[0].getAttribute('data-original')
+    function showMenu(){
+        let divSpan = document.getElementById('span-mobile');
+        divSpan.addEventListener('click', function(){
+            menu.style.display = 'block';
+        })
     }
 
-function alterarImagem(imagem){
+    function closeMenu(){
+        let close = document.getElementById('close-menu');
+        close.addEventListener('click', function(){
+            menu.style.display = 'none';
+        })
+    }
+
     
-    
-    const ext = imagem.getAttribute('src').split('.').pop();
-    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "-min."+ext);
+
+    function showText(words){
+        let span = document.getElementById('texto-custom');
+        let wordFirst = span.innerText;
+        words.push(wordFirst);
+        
+        let i =0;
+        do{
+            
+            setInterval(function(){
+                span.innerText = words[i];      
+                
+                if(i==(words.length-1)){
+                    i=0;
+                }else{
+                    i++;
+                }
+                      
+            }, 1500);
+
+            
+        }while(i==(words.length));
+        
+        
+    }
+
+    let palavras = ['Web', 'Front-End'];
+
+    showMenu();
+    closeMenu();
+    showText(palavras);
 
 }
-
-function voltarOriginal(imagem){
-    const ext = imagem.getAttribute('src').split('.').pop();
-    imagem.setAttribute('src', "imagens/" + imagem.getAttribute('alt') + "0-min."+ext);
-}
-
-
-
-
-
-
-

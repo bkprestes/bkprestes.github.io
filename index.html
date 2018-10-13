@@ -13,89 +13,147 @@
 		<!--css personalizado-->
 		<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
 
+		<style>
+			/*desabilita a seleção no body*/
+			/*body {
+			    -webkit-touch-callout: none; /* iOS Safari */
+			     /* -webkit-user-select: none; /* Chrome/Safari/Opera */
+			       /*-khtml-user-select: none; /* Konqueror */
+			         /*-moz-user-select: none; /* Firefox */
+			          /*-ms-user-select: none; /* Internet Explorer/Edge */
+			            /*  user-select: none;
+			}
+
+			/*habilita a seleção nos campos editaveis*/
+			/*input, textarea {
+			  /*  -webkit-touch-callout: initial; /* iOS Safari */
+			    /*  -webkit-user-select: text; /* Chrome/Safari/Opera */
+			      /* -khtml-user-select: text; /* Konqueror */
+			        /* -moz-user-select: text; /* Firefox */
+			          /*-ms-user-select: text; /* Internet Explorer/Edge */
+			            /*  user-select: text;
+			}
+
+			/*habilita a seleção nos campos com o atributo contenteditable*/
+			/*[contenteditable=true] {
+			    -webkit-touch-callout: initial; /* iOS Safari */
+			  /*    -webkit-user-select: all; /* Chrome/Safari/Opera */
+			    /*   -khtml-user-select: all; /* Konqueror */
+			      /*   -moz-user-select: all; /* Firefox */
+			        /*  -ms-user-select: all; /* Internet Explorer/Edge */
+			          /*    user-select: all;
+			}
+		</style>
+
 
 
 		
 
 	</head>
 	<body>
-
-		<div id="main" class="container-fluid">
-			<div class="row">
-				<div class="col-12 col-md-2">
-					<div id="menu">
-						<ul id="lista-menu">
-							<li><a href="#sobre-mim" data-traducao="Sobre mim" data-original="About">About</a></li>
-							<li><a href="#portfolio" data-traducao="Portfólio" data-original="Portfolio">Portfolio</a></li>
-							<li><a href="#contato" data-traducao="Contato" data-original="Contact">Contact</a></li>
-							<li><a href="#links-footer" class="show" id="menu-network" data-traducao="Redes Sociais" data-original="Networks">Networks</a></li>
-						</ul>
+		
+		<section>
+			<header>
+				<nav>
+					<div id="span-mobile">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul id="menu">
+						<span id="close-menu">X</span>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#portfolio">Portfólio</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</nav>
+				<div id="img-background">
+					<div class="max-1200">
+						<span>Rebeca P. Andrade</span>
+						<p id="texto-custom">Desenvolvedora</p>
+						<button>Ver Portfólio</button>
 					</div>
 				</div>
-				<div class="col-12 col-md-8">
-					<div>
-						<div id="imagem" class="col-12">
-							<img class="img-fluid" src="./imagens/sunset-min.jpg" alt="sunset">
-						</div>
-						<div id="sobre-mim" class="col-12">
-							<h1>Rebeca Prestes</h1>
-							<p>Olá! Meu nome é Rebeca Prestes de Andrade, tenho 25 anos, sou natural de Porto Alegre-RS e resido em Florianópolis há mais de 10 anos.
-					  		<br>Sou formada em Técnico em Informática, com ênfase em Desenvolvimento de Sistemas, pelo Instituto Federal de Santa Catarina (IFSC).
-					  		<br> Sou apaixonada por programação. Atualmente, o meu foco é o desenvolvimento web. Alguns de meus projetos, como desenvolvedora front-end jr, podem ser visualizados na seção <a href="#portfolio">Portfólio</a>. Esses projetos foram desenvolvidos com HTML, CSS, Bootstrap, Javascript e jQuery.</p>
-						</div>
-					</div>
-					<div id="portfolio">
-						<h2>Portfólio</h2>
-						<div class="row">
-							<div class="col-12 col-md-6">
-								<a href='./convite' target="_blank"><img src="imagens/conviteEvento0-min.png" class="d-block mx-auto img-fluid" onmouseover="alterarImagem(this)" onmouseout="voltarOriginal(this)" data-color="0" alt="conviteEvento" title="Convite Evento"></a>
-								<a href="./celular-alcatel" target="_blank"><img src="imagens/siteProduto0-min.png" class="d-block mx-auto img-fluid" onmouseover="alterarImagem(this)" onmouseout="voltarOriginal(this)" data-color="1" alt="siteProduto" title="Site Produto"></a>
-								<a href="./autora-harryPotter" target="_blank"><img src="imagens/bookAuthor0-min.png" class="d-block mx-auto img-fluid" onmouseover="alterarImagem(this)" onmouseout="voltarOriginal(this)" data-color="2" alt="bookAuthor" title="Book/Author"></a>
+			</header>
+		</section>
+		
+		<section id="posts-blog">
+			<h3>Blog</h3>
+			<div class="row max-1200">
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/dahlia.jpg" alt="">
+					<h5>Título 1</h5>
+					<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+					<button>Ver Post</button>
+				</div>
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/dahlia.jpg" alt="">
+					<h5>Título 2</h5>
+					<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+					<button>Ver Post</button>
+				</div>
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/dahlia.jpg" alt="">
+					<h5>Título 3</h5>
+					<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+					<button>Ver Post</button>
+				</div>
+				
+			</div>
+		</section>
 
-							</div>
-							<div class="col-12 col-md-6">
-								<a href="./festa-junina" target="_blank"><img src="imagens/atracaoTuristica0-min.png" class="d-block mx-auto img-fluid" onmouseover="alterarImagem(this)" onmouseout="voltarOriginal(this)" data-color="3" alt="atracaoTuristica" title="Atração Turística"></a>
-								<a href="./menu-restaurante" target="_blank"><img src="imagens/menuRestaurante0-min.png" class="d-block mx-auto img-fluid" onmouseover="alterarImagem(this)" onmouseout="voltarOriginal(this)" data-color="4" alt="menuRestaurante" title="Menu Restaurante"></a>
-							</div>
-						</div>
-					</div>
+		<section id="tech">
+			<h3>Habilidades</h3>
+			<div class="row max-1200">
+				<div class="col-12 col-md-2">
+					<div class="img-tech" id="tech01"></div>
 					
 				</div>
-				<div id="network" class="col-md-2 hide">
-					<div id="links">
-						<h2 data-traducao="Redes Sociais" data-original="Networks">Networks</h2>
-						<ul>
-							<li><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/rebecaprestes/" target="_blank" title="Linkedin"></a></li>
-			  				<li><a class="fa fa-github" href="https://github.com/bkprestes" target="_blank" title="Github"></a></li>
-						</ul>
-					</div>
+				<div class="col-12 col-md-2">
+					<div class="img-tech" id="tech02"></div>
+					
+				</div>
+				<div class="col-12 col-md-2">
+					<div class="img-tech" id="tech03"></div>					
+				</div>
+				<div class="col-12 col-md-2">
+					<div class="img-tech" id="tech04"></div>					
+				</div>
+				<div class="col-12 col-md-2">
+					<div class="img-tech" id="tech05"></div>					
 				</div>
 				
 			</div>
-			
-			<div id="footer" class="container-fluid">
-				
-				<div class="row">
-					<div id="links-footer" class="col-12 col-md-6">
-						<h2 data-traducao="Redes Sociais" data-original="Networks">Networks</h2>
-						<ul>
-							<li><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/rebecaprestes/" target="_blank" title="Linkedin"></a></li>
-			  				<li><a class="fa fa-github" href="https://github.com/bkprestes" target="_blank" title="Github"></a></li>
-						</ul>
-					</div>
-					<div id="contato" class="col-12 col-md-6">
-						<h2 data-traducao="Contato" data-original="Contact">Contact</h2>
-						<p>Escreva uma mensagem para mim! Meu e-mail é rebecaprestesc@gmail.com<br>
-						Assim que puder, entrarei em contato com você! ;)</p>
-					</div>
+		</section>
 
-							
-							
+		<section id="portfolio">
+			<h3>Portfólio</h3>
+			<div class="row max-1200">
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/teia.jpg" alt="">
 				</div>
-						
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/passaro.jpg" alt="">
+				</div>
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/arvores.jpg" alt="">
+				</div>
 			</div>
-		</div>
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/passaro.jpg" alt="">
+				</div>
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/arvores.jpg" alt="">
+				</div>
+				<div class="col-12 col-md-3">
+					<img class="img-fluid" src="./imagens/teia.jpg" alt="">
+				</div>
+			</div>
+		</section>
 
+
+		
 
 		
 
@@ -105,5 +163,47 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 		<!--js personalizado-->
 		<script type="text/javascript" src="./js/myscript.js"></script>
+
+		<script>
+			/*if (document.addEventListener) {
+			    document.addEventListener("contextmenu", function(e) {
+			        e.preventDefault();
+			        return false;
+			    });
+			} else { //Versões antigas do IE
+			    document.attachEvent("oncontextmenu", function(e) {
+			        e = e || window.event;
+			        e.returnValue = false;
+			        return false;
+			    });
+			}
+
+			//bloquear ctrl+s e ctrl+u
+
+			if (document.addEventListener) {
+			    document.addEventListener("keydown", bloquearSource);
+			} else { //Versões antigas do IE
+			    document.attachEvent("onkeydown", bloquearSource);
+			}
+
+			function bloquearSource(e) {
+			    e = e || window.event;
+
+			    var code = e.which || e.keyCode;
+
+			    if (
+			        e.ctrlKey &&
+			        (code == 83 || code == 85) //83 = S, 85 = U
+			    ) {
+			        if (e.preventDefault) {
+			            e.preventDefault();
+			        } else {
+			            e.returnValue = false;
+			        }
+
+			        return false;
+			    }
+			}
+		</script>
 	</body>
 </html>
