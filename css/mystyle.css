@@ -65,6 +65,10 @@ nav {
   max-width: 280px;
 }
 
+#tech {
+  background-color: #f9f2ec;
+  padding: 30px 0;
+}
 #tech .row {
   display: flex;
   justify-content: center;
@@ -97,6 +101,9 @@ nav {
   background-image: url(../imagens/wordpress.png);
 }
 
+#portfolio {
+  padding: 30px 0;
+}
 #portfolio .row {
   display: flex;
   justify-content: center;
