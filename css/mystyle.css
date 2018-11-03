@@ -11,7 +11,7 @@ nav {
 }
 
 #span-mobile {
-  background-color: #0c233b;
+  background-color: purple;
   width: auto;
   padding: 7px 0 10px 10px;
 }
@@ -37,18 +37,44 @@ nav {
 
 .max-1200 {
   max-width: 1200px;
+  margin: auto;
 }
 
+#img-background {
+  background-color: #000;
+  color: #f1f1f1;
+  padding: 100px 0;
+}
 #img-background div {
-  width: 90%;
+  width: 100%;
   text-align: center;
-  margin: 50px auto;
+  margin: auto;
 }
 #img-background div span {
-  font-size: 18px;
+  font-size: 28px;
+  font-weight: bold;
 }
-#img-background div p {
-  font-size: 36px;
+#img-background div small {
+  display: block;
+  text-align: center;
+}
+#img-background div a {
+  background-color: purple;
+  display: inline-block;
+  border-radius: 20px;
+  color: #f1f1f1;
+  padding: 2px 10px;
+  margin-top: 20px;
+}
+
+#about-me {
+  padding: 100px 0px;
+}
+#about-me div h5 {
+  text-align: center;
+}
+#about-me div p {
+  text-align: center;
 }
 
 /*#posts-blog{
@@ -67,14 +93,20 @@ nav {
 	}
 }*/
 #tech {
-  background-color: #f9f2ec;
-  padding: 30px 0;
+  background-color: #000;
+  color: #f1f1f1;
+  padding: 100px 0;
+}
+#tech h5 {
+  text-align: center;
+}
+#tech span {
+  display: flex;
 }
 #tech .row {
   display: flex;
   justify-content: center;
-  width: 90%;
-  margin: 50px auto;
+  width: 100%;
 }
 #tech .row div .img-tech {
   border-radius: 50%;
@@ -82,7 +114,6 @@ nav {
   height: 80px;
   margin: 10px auto;
   display: block;
-  box-shadow: 10px 10px 5px gray;
   background-size: cover;
   background-position: center center;
 }
@@ -103,13 +134,15 @@ nav {
 }
 
 #portfolio {
-  padding: 30px 0;
+  padding: 100px 0;
+}
+#portfolio h5 {
+  text-align: center;
 }
 #portfolio .row {
   display: flex;
   justify-content: center;
-  width: 90%;
-  margin: auto;
+  width: 100%;
 }
 #portfolio .row div {
   padding: 0;
@@ -118,7 +151,7 @@ nav {
 }
 
 #footer {
-  background-color: #0c233b;
+  background-color: purple;
   padding: 50px 0;
   margin-top: 50px;
   color: white;
